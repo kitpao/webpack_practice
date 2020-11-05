@@ -2,7 +2,7 @@
   "name": "webpack_practice",
   "version": "1.0.0",
   "description": "I will be experimenting with webpack functionalities",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
