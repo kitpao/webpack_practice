@@ -1,3 +1,8 @@
 const myName = (name) => 'Hi! My name is ' + name;
 
-export default myName
+const yourName = (name) => 'this is a friend called ' + name;
+
+export {
+  myName,
+  yourName
+}
