@@ -1,5 +1,6 @@
 // import _ from 'lodash';
 import {myName, yourName} from './myName';
+import "./butterfly.jpeg";
 
 function component() {
   const element = document.createElement('div');
