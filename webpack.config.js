@@ -1,5 +1,6 @@
 const path = require('path');
-const ConsoleLogOnBuildWebpackPlugin = require("./ConsoleLogOnBuildWebpackPlugin.js")
+const ConsoleLogOnBuildWebpackPlugin = require("./ConsoleLogOnBuildWebpackPlugin.js");
+const webpack  = require("webpack");
 
 module.exports = {
   entry: './src/index.js',
@@ -32,6 +33,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ConsoleLogOnBuildWebpackPlugin()
+    new ConsoleLogOnBuildWebpackPlugin(),
+    new webpack.ContextReplacementPlugin()
   ]
 };
