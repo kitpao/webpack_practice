@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 // import {myName, yourName} from './myName';
-import Icon from "./butterfly.jpeg";
+import Icon from './butterfly.jpeg';
 
 function component() {
   const element = document.createElement('div');
@@ -14,7 +14,7 @@ function component() {
   //element.innerHTML = myName('Kit') + ' and ' + yourName('Pao');
 
   // add image
-  const myIcon = newImage();
+  const myIcon = new Image();
   myIcon.src = Icon;
 
   element.appendChild(myIcon);
