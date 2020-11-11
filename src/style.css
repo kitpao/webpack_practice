@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'XanhMono';
+  src: url('./XanhMono-Italic.ttf') format('ttf'),
+    url('./Goldman-Regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
   color: red;
+  font-family: 'XanhMono';
   background: url('./butterfly.jpeg');
 }
